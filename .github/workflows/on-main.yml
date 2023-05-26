@@ -5,10 +5,8 @@ on:
     branches:
       - main
   workflow_run:
-    workflows:
-      - sheduler
-    types:
-      - completed
+    workflows: [scheduler]
+    types: [completed]
 
 jobs:
   on-main:
