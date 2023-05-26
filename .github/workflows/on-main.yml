@@ -2,7 +2,8 @@ name: on-main
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   on-main:
